@@ -1,0 +1,89 @@
+
+body {
+  background-color:#e7717d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: flex-start;
+  font-family: 'Pacifico', cursive;
+  color: orange;
+  background: rgb(203,203,173);
+  background: linear-gradient(0deg, rgba(203,203,173,0) 42%, rgba(253,187,45,1) 100%);dotted dashed solid double;
+}
+
+.bar-chart {
+  margin: 20px;
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: black;
+  border-color: pink;
+  cursor: pointer; 
+  margin-top: 0;
+  
+}
+
+
+
+.bar {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 60px rgba(7, 6, 6, 0.7);
+  z-index: 10;
+  
+}
+.y-axis {
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 6em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-justify: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bar-chart:hover{
+  opacity: 0.8;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  justify-content: justify;
+}
+
+.y-axis {
+  display: flex;
+  justify-content: center;
+}
+
+.chart-title {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: orange;
+}
+
+.horizontal-axis {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.gen1 {
+  display: flex;
+  justify-content: center;
+
+}
