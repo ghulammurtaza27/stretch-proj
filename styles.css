@@ -1,13 +1,12 @@
 
 body {
-  background-color:#e7717d;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-content: space-between;
   align-items: flex-start;
   font-family: 'Pacifico', cursive;
-  color: orange;
+  color: #389393;
   background: rgb(203,203,173);
   background: linear-gradient(0deg, rgba(203,203,173,0) 42%, rgba(253,187,45,1) 100%);dotted dashed solid double;
 }
@@ -24,7 +23,7 @@ body {
   border-color: pink;
   cursor: pointer; 
   margin-top: 0;
-  
+  color: #212121;
 }
 
 
@@ -72,7 +71,7 @@ h1 {
   justify-content: center;
   margin: 0;
   padding: 0;
-  color: orange;
+  color: #394867;
 }
 
 .horizontal-axis {
